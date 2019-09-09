@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "init": "node ./setupGitftp.js",
-    "deploy": "node ./deployForServer.js"
+    "gitftp:init": "node ./setupGitftp.js",
+    "gitftp:deploy": "node ./deployForServer.js"
   }
 }

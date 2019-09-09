@@ -1,0 +1,12 @@
+{
+  "name": "git-ftp-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hiroki Saito",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "init": "node ./setupGitftp.js",
+    "deploy": "node ./deployForServer.js"
+  }
+}
